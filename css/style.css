@@ -1,0 +1,19 @@
+.barreNav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.elmtBarreNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 30rem;
+    padding-left: 0px;
+
+}
+
+#barreDeux img {
+    width: 6rem;
+    height: 6rem;
+}
