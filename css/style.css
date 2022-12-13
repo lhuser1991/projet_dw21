@@ -1,3 +1,10 @@
+body {
+    background-color: rgb(0,0,0);
+    color: rgb(0,128,55);
+}
+
+/* Partie header  */
+
 .barreNav {
     display: flex;
     justify-content: space-around;
@@ -13,7 +20,59 @@
 
 }
 
+#barreUn , #barreDeux , #barreTrois {
+    margin-bottom: 0px;
+}
+
 #barreDeux img {
-    width: 6rem;
-    height: 6rem;
+    width: 8rem;
+    height: 8rem;
+}
+
+nav p {
+    text-align: center;
+    font-size: x-large;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* Partie section */
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+/* permet au carousel d'image de garder une taille fixe lors du defilement  */
+.carousel-inner {
+    width: 640px;
+    height: 427px;
+}
+
+.presentation {
+    padding-left: 1rem;
+}
+
+/* Partie footer */
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer ul {
+    padding-left: 0px;
+}
+
+footer ul li {
+    list-style: none;
+} 
+
+footer img {
+    width: 8rem;
+    height: 8rem;
 }
