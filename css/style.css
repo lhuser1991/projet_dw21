@@ -55,6 +55,10 @@ nav p {
     margin-bottom: 1rem;
 }
 
+.barreNav .liensPages {
+    text-decoration: none;
+}
+
 /* Partie section */
 
 section {

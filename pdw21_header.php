@@ -19,8 +19,8 @@
             <div class="barreNav">
                 
                 <ul class="elmtBarreNav" id="barreUn">
-                    <li> ACCUEIL </li>
-                    <li> CARTE DES PLATS</li>
+                    <li> <a class="liensPages" href="./pdw21_page_accueil.php">ACCUEIL</a> </li>
+                    <li> <a class="liensPages" href="#">CARTE DES PLATS</a></li>
                 </ul>
                 
                 <ul class="elmtBarreNav" id="barreDeux">
@@ -30,8 +30,8 @@
                 </ul>
                 
                 <ul class="elmtBarreNav" id="barreTrois">
-                    <li> COMMANDE </li>
-                    <li> ESPACE CLIENT </li>
+                    <li> <a class="liensPages" href="./pdw21_page_commande.php">COMMANDE</a> </li>
+                    <li> <a class="liensPages" href="./pdw21_page_identification.php">ESPACE CLIENT</a> </li>
                 </ul>
                 
             </div>
