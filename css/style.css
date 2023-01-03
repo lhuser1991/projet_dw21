@@ -55,7 +55,7 @@ nav p {
     margin-bottom: 1rem;
 }
 
-.barreNav .liensPages {
+.barreNav ul li .liensPages {
     text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ section {
 }
 
 /* Partie footer */
-
+/* 
 footer {
     display: flex;
     justify-content: space-around;
@@ -99,4 +99,4 @@ footer ul li {
 footer img {
     width: 8rem;
     height: 8rem;
-}
+} */
