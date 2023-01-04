@@ -1,6 +1,7 @@
 body {
     background-color: rgb(0,0,0);
     color: rgb(0,128,55);
+    /* height: 3000px; */
 }
 
 /* Partie header  */
@@ -57,6 +58,7 @@ nav p {
 
 .barreNav ul li .liensPages {
     text-decoration: none;
+    color: rgb(0,128,55);
 }
 
 /* Partie section */
@@ -65,6 +67,7 @@ section {
     display: flex;
     justify-content: space-around;
     padding: 4rem 1rem ;
+    /* height: 1000px; */
 }
 
 /* permet au carousel d'image de garder une taille fixe lors du defilement  */
@@ -78,7 +81,16 @@ section {
 }
 
 .container .row .box {
-    border-color: white;
+    border: 2px solid white;
+}
+
+.card {
+    margin: auto;
+}
+
+#titrePgCommande {
+    text-align: center;
+    text-decoration: underline;
 }
 
 /* Partie footer */
