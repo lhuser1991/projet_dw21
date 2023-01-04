@@ -1,10 +1,13 @@
 body {
     background-color: rgb(0,0,0);
     color: rgb(0,128,55);
-    /* height: 3000px; */
 }
 
 /* Partie header  */
+
+header {
+    margin-bottom: 1rem;
+}
 
 nav {
     background-color: black;
@@ -96,6 +99,7 @@ section {
 /* Partie footer */
 
 footer {
+    margin-top: 1rem;
     display: flex;
     justify-content: space-around;
     padding-top: 1rem;
