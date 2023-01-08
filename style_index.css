@@ -1,0 +1,72 @@
+/* body {
+    background-color:rgb(78, 78, 78);
+} */
+
+.pdw21-navbar {
+    background-color: rgba(0,0,0,0.55);
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+
+.pdw21-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.pdw21-navbar .nav-link:hover {
+    padding-bottom: 15px;
+    border-bottom-color: rgb(251,142,76);
+}
+
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("/img/accueil_pizza5.jpg") center center fixed no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 3px solid rgb(251,142,76);
+}
+
+.banner .banner-desc {
+    font-size: 48px;
+    font-weight: 400;
+    color: white;
+}
+
+.btn-order {
+    color: rgb(251,142,76);
+    border-color: rgb(251,142,76);
+    transition: 0.5s;
+}
+
+.btn-order:hover, .btn-order:active {
+    color: white ;
+    background-color: rgb(251,142,76);
+}
+
+.introduction img {
+    border: 3px solid rgb(251,142,76);
+}
+
+.inscription {
+    height: 600px;
+}
+
+.inscription {
+    border-bottom: 3px solid rgb(251,142,76);
+}
+
+.inscription .container {
+    background: url("/img/accueil_burger2.jpg") no-repeat center center ;
+    background-size: cover;
+    height: 500px;
+    padding: 100px 15px;
+    border: 3px solid rgb(251,142,76);
+}
+
+footer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+footer img {
+    width: 50%;
+}
