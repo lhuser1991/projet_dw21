@@ -42,21 +42,30 @@
     color: white;
 }
 
-.introduction img {
-    border: 3px solid rgb(251,142,76);
+/* *************** partie corps commande **************** */
+
+.pizza .card , .burger .card{
+    border: 2px solid rgb(251,142,76);
 }
 
-.inscription {
-    height: 600px;
-    border-bottom: 3px solid rgb(251,142,76);
+.pizza .card-body , .burger .card-body {
+    background-color: antiquewhite;
 }
 
-.inscription .container {
-    background: url("/img/accueil_burger2.jpg") no-repeat center center ;
-    background-size: cover;
-    height: 500px;
-    padding: 100px 15px;
-    border: 3px solid rgb(251,142,76);
+.pizza img , .burger img{
+    border-bottom: 2px solid rgb(251,142,76);
+}
+
+.dish-title {
+    margin: 20px 0;
+    color: rgb(251,142,76);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#order-basket-part .card {
+    border: 2px solid rgb(251,142,76);
+    background-color: antiquewhite;
 }
 
 /* *************** partie footer **************** */
